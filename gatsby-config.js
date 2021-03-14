@@ -3,7 +3,7 @@ module.exports = {
     title: `sathiskumar`,
     description: `Sathiskumar is a UX designer From a Engineering Background.`,
     author: `Sathiskumar`,
-    pathPrefix: "/Sathish",
+    pathPrefix: "/sathish.github.io",
   },
   plugins: [
     {
