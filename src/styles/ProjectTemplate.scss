@@ -1,0 +1,116 @@
+@import "./styles";
+
+.project-container {
+  @include padding-top(5rem);
+  @include padding-left(0.9rem);
+  @include padding-right(0.9rem);
+  margin: auto;
+}
+
+@media only screen and (max-width: 570px) {
+	.project-container {
+		@include padding-right(0.3rem);
+		@include padding-left(0.3rem);
+	}
+}
+
+.project-container p, .project-container ul, .project-container ol, .project-container h2 {
+  max-width: 600px;
+}
+
+.project-container a:hover {
+	text-decoration: underline;
+}
+
+.project-container h1 {
+  max-width: 1000px;
+}
+
+.project-container p img {
+  margin-top: 1rem;
+}
+
+.project-container h3 {
+  font-weight: 600;
+  max-width: 600px;
+  margin-block-end: 1.08rem;
+}
+
+.project-contact {
+  margin-top: 128px;
+  max-width: 700px;
+}
+
+.slug h1 {
+  margin-bottom: 0.8rem;
+}
+
+.slug h3 {
+  font-weight: normal;
+  max-width: 600px;
+}
+
+.slug {
+  margin-bottom: 2rem;
+}
+
+.wideImage p {
+  max-width: 100%;
+}
+
+.wideImage {
+  width: 94vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -47vw;
+  margin-right: -47vw;
+}
+
+.wideImageWithBackground {
+  width: 94vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -47vw;
+  margin-right: -47vw;
+  @include padding(calc(5vh));
+  max-height: 90vh;
+}
+
+.wideImageWithBackground p {
+  max-width: 100%;
+}
+
+.custom-block-body iframe {
+  width: 100%;
+  max-width: 1100px;
+  max-height: 619px;
+  height: calc(51.5625vw);
+}
+
+.gatsby-resp-image-image {
+  box-shadow: none !important;
+}
+
+.gatsby-resp-image-wrapper {
+  margin: auto !important;
+  margin-top: 2.4rem !important;
+  max-width: 100% !important;
+}
+
+.emphasisText {
+  @include padding(1.25rem);
+  max-width: 600px;
+  margin-bottom: 1.45rem;
+}
+
+.emphasisText p, .emphasisText ol {
+  margin-bottom: 0px;
+}
+
+.backToHome {
+  @include padding-right(0.9rem);
+  @include padding-left(0.9rem);
+  @include padding-top(4rem);
+}

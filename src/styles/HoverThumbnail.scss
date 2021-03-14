@@ -1,0 +1,30 @@
+.HoverThumbnail h1 {
+  margin-bottom: 0px;
+}
+
+.HoverThumbnail {
+  display: inline;
+  position: relative;
+}
+
+.HoverThumbnail:hover {
+  cursor: crosshair;
+}
+
+.thumbnail {
+	opacity: 0;
+}
+
+.thumbnail-hovered {
+	opacity: 1.0;
+}
+
+.thumbnail-intro {
+	position: absolute !important;
+	top: -170px;
+	display: flex;
+	z-index: 20;
+	transition-duration: 0.3s;
+	transition-property: opacity;
+	pointer-events: none;
+}
